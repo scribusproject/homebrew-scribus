@@ -19,7 +19,7 @@ class ScribusDownloadStrategy < SubversionDownloadStrategy
 end
 
 
-class scribus < Formula
+class Scribus < Formula
   homepage 'http://wiki.scribus.net/canvas/Scribus_and_Homebrew'
   version '0.9'
   head 'svn://scribus.net//trunk/Scribus',
