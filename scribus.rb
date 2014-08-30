@@ -53,7 +53,7 @@ class Scribus < Formula
    def install
     args = %W[
     -DBUILD_OSX_BUNDLE=1
-    -DCMAKE_INSTALL_PREFIX:PATH=#{prefix}/ScribusDev.app/Contents/
+    -DCMAKE_INSTALL_PREFIX:PATH=#{prefix}/Scribus.app/Contents/
     -DQT_PREFIX=#{Formula["qt5"].opt_prefix}
     -DWANT_HUNSPELL=1
     -DWITH_PODOFO=1
