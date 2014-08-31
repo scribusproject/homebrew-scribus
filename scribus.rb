@@ -1,17 +1,5 @@
 require 'formula'
 
-# Important Note: (from the Scribus core devs)
-# - Don't use 1.5 for production, don't rely on it to work day to day. Use 1.4.4 for that.
-# - If you ignore the above, be prepared to stay on a version that works for you. There's normally no
-# reason to change every day.
-# - No bugs for homebrew solutions in the Scribus tracker.
-# - More info http://wiki.scribus.net/canvas/Scribus_and_Homebrew
-
-# TODO
-#  Add a patch template to test Scribus patches (https://github.com/Homebrew/homebrew/wiki/Formula-Cookbook#patches)
-#  Add Messaging (https://github.com/Homebrew/homebrew/wiki/Formula-Cookbook#messaging)
-#  Add the possibility to download only certain languages
-
 class ScribusDownloadStrategy < SubversionDownloadStrategy
   def stage
     FileUtils.cp_r @clone.children, '.'
