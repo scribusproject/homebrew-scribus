@@ -16,20 +16,4 @@ Changelog
 *  <s>Move formula from private gist to official ScribusProject GitHub repo and updated wiki</s>
 *  <s>Also possible to use https://github.com/Homebrew/homebrew-headonly</s> **created a tap**
 
-TODO
-====
-Ordered from high to low priority:
-*  Fix the --without flag functionality
-*  Add a patch template to test Scribus patches (https://github.com/Homebrew/homebrew/wiki/Formula-Cookbook#patches)
-*  Help add libcdr to homebrew repo
-*  Add Messaging (https://github.com/Homebrew/homebrew/wiki/Formula-Cookbook#messaging)
-*  Add the possibility to download only certain languages via CLI flag
-*  Once Scribus v1.6 comes out, update formula and submit scribus.rb to official homebrew repo 
-*  Make sure that the SVN flags get appended when specified
-    For example: if we don't want to compile with graphicmagic we'd pass
-    ```brew reinstall --verbose --without-graphicsmagic --HEAD scribus```
-    which should pass the SVN Flag to disable graphicsmagic
-*  Mac OS X v10.8 (Mountain Lion) option to compile with Python v3 (in order to use Scripter2(?) 
-*  FIX: Add the option to compile Cmake with "-DWANT_SCRIPTER2=1" 
-
 
