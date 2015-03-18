@@ -5,7 +5,7 @@ This is only for the latest version of 1.5.0svn trunk. There is no 1.4.x unless 
 
 Note (from the Scribus core devs)
 ====
-*  Don't use 1.5 for production, don't rely on it to work day to day. Use stable version (1.4.4) for that.
+*  Don't use 1.5 for production, don't rely on it to work day to day. Use stable version (1.4.5) for that.
 *  If you ignore the above, be prepared to stay on a version that works for you. There's normally no
      reason to change every day.
 *  No bugs for homebrew solutions in the Scribus tracker.
