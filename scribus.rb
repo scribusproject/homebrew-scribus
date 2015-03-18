@@ -46,7 +46,7 @@ class Scribus < Formula
     -DWANT_HUNSPELL=1
     -DWITH_PODOFO=1
     -DWANT_GRAPHICSMAGICK=1
-    -DWANT_SVNVERSION=1
+    -DWANT_SVNVERSION=0
     -DWANT_DEBUG=1
     ]
     # Other Options:
