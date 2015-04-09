@@ -9,10 +9,8 @@ Coming Soon for now see http://wiki.scribus.net/canvas/Scribus_and_Homebrew
 
 Todo
 ====
-* Fix cmake issue where "-- No source header files will be installed" which doesn't build with debugger symbols also "LCMS 2 Debug Library: LCMS2_LIBRARY_DEBUG-NOTFOUND" ?
-* Get libcdr in to homebrew repo and enabled
-* Fix up formula to install by specific revisions
-* Research "No OSG found, building without 3D Extension" 
+* https://github.com/scribusproject/homebrew-scribus/issues
+
 
 Note (from the Scribus core devs)
 ====
