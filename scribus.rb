@@ -36,7 +36,7 @@ class Scribus < Formula
   depends_on 'libwpg' => :recommended           # Importer: WordPerfect Graphics
   depends_on 'libvisio' => :recommended         # Importer: MS-Visio
   depends_on 'libmspub' => :recommended         # Importer: MS-Publisher
-#  depends_on 'libcdr' => :recommended           # Importer: Corel Draw
+  depends_on 'libcdr' => :recommended           # Importer: Corel Draw
 
    def install
     args = %W[
