@@ -1,5 +1,3 @@
-require 'formula'
-
 class ScribusDownloadStrategy < SubversionDownloadStrategy
   def stage
     FileUtils.cp_r @clone.children, '.'
