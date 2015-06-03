@@ -23,7 +23,7 @@ class Scribus < Formula
   depends_on 'pkg-config' => :build
   depends_on 'python'
   depends_on 'hunspell'
-  depends_on 'homebrew/dupes/zlib'
+  depends_on 'homebrew/dupes/zlib' if MacOS.version <= :mavericks
   depends_on 'ghostscript' => :recommended
   depends_on 'graphicsmagick' => :recommended
   depends_on 'boost' => :recommended
