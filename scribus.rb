@@ -35,7 +35,7 @@ class Scribus < Formula
   depends_on 'libvisio' => :recommended         # Importer: MS-Visio
   depends_on 'libmspub' => :recommended         # Importer: MS-Publisher
   depends_on 'libcdr' => :recommended           # Importer: Corel Draw
-  depends_on 'libpagemaker' => :recommended     # Importer: Adobe Pagemaker
+#  depends_on 'libpagemaker' => :recommended     # Importer: Adobe Pagemaker
   depends_on 'libfreehand' => :recommended      # Importer: Aldus/Macromedia/Adobe Freehand
   depends_on 'open-scene-graph' => :recommended # 3D PDF Annotations
 
