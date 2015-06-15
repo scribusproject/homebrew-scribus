@@ -7,6 +7,11 @@ Usage
 =====
 Coming Soon for now see http://wiki.scribus.net/canvas/Scribus_and_Homebrew
 
+**Install Homebrew Package**   
+1. Open Terminal/iTerm and Paste: 
+     ``ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"``
+
+
 Todo
 ====
 * https://github.com/scribusproject/homebrew-scribus/issues
