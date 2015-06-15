@@ -8,10 +8,7 @@ end
 class Scribus < Formula
   homepage 'http://wiki.scribus.net/canvas/Scribus_and_Homebrew'
   version '0.9'
-  head 'svn://scribus.net//trunk/Scribus',
-    # download a specific revision
-    # use :revision => '######',
-    :using => ScribusDownloadStrategy
+  head 'svn://scribus.net//trunk/Scribus', :using => ScribusDownloadStrategy
   depends_on 'cmake' => :build
   depends_on 'little-cms2'
   depends_on 'qt5'
@@ -35,7 +32,7 @@ class Scribus < Formula
   depends_on 'libvisio' => :recommended         # Importer: MS-Visio
   depends_on 'libmspub' => :recommended         # Importer: MS-Publisher
   depends_on 'libcdr' => :recommended           # Importer: Corel Draw
-#  depends_on 'libpagemaker' => :recommended     # Importer: Adobe Pagemaker
+  depends_on 'libpagemaker' => :recommended     # Importer: Adobe Pagemaker
   depends_on 'libfreehand' => :recommended      # Importer: Aldus/Macromedia/Adobe Freehand
   depends_on 'open-scene-graph' => :recommended # 3D PDF Annotations
 
