@@ -1,7 +1,7 @@
 homebrew-scribus
 ================
 A Homebrew (the Mac OSX Package Manager) tap for installing Scribus.
-This is only for the latest version of 1.5.0svn trunk. There is no 1.4.x unless someone wants to make it. 
+This is only for the latest version of 1.5.x trunk. There is no 1.4.x unless someone wants to make it. 
 
 
 Requirements
