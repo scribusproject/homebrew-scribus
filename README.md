@@ -36,7 +36,7 @@ Since you are running Scribus trunk you can help Scribus development by making b
      ``(lldb) target create "/Users/snafu/Applications/Scribus.app/Contents/MacOS/Scribus"``  
      ``Current executable set to '/Users/sphenoid/Applications/Scribus.app/Contents/MacOS/Scribus' (x86_64).``  
 2. When lldb prompts you: ``run`` Scribus now invoked in the debugger. The CLI responds:  
-     ``Process 13977 launched: '/Users/sphenoid/Applications/Scribus.app/Contents/MacOS/Scribus' (x86_64)``  
+     ``Process ##### launched: '/Users/sphenoid/Applications/Scribus.app/Contents/MacOS/Scribus' (x86_64)``  
 3. When you encounter a bug and need to generate a backtrace: ``bt``  
 4. Copy/Paste backtrace in to a bug report at bugs.scribus.net  
 
