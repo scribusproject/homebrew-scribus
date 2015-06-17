@@ -26,8 +26,8 @@ Several options:
 
 **Install Scribus and it's dependencies**  
 1. ``brew tap scribusproject/scribus`` Copy the Scribus formula from the github repo AND from now on check the repo formula for updates everytime brew update is invoked  
-2. ``brew install --HEAD scribus --verbose`` (Builds scribus.. This will take some time)
-3. ``brew linkapps scribus --local`` will symlink Scribus.app to ~/Applications
+2. ``brew install --HEAD scribus --verbose`` (Builds scribus.. This will take some time)  
+3. ``brew linkapps scribus --local`` will symlink Scribus.app to ~/Applications  
 
 **Run Scribus**  
 Several options:  
