@@ -19,10 +19,12 @@ Usage
 
 **Install Homebrew Package Manager**   
 1. Open Terminal.app or [iTerm](http://iterm2.com)  
-2. ``ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"``  
-3. ``brew tap scribusproject/scribus`` (tap official scribusproject/homebrew-scribus repo AND from now on check the repo formula for updates everytime brew update is invoked  
-4. ``brew install --HEAD scribus --verbose``  
-5. ``brew linkapps scribus --local`` will symlink Scribus.app to ~/Applications
+2. ``ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"`` 
+
+**Install Scribus and it's dependencies**  
+1. ``brew tap scribusproject/scribus`` Copy the Scribus formula from the github repo AND from now on check the repo formula for updates everytime brew update is invoked  
+2. ``brew install --HEAD scribus --verbose`` (Builds scribus.. This will take some time)
+3. ``brew linkapps scribus --local`` will symlink Scribus.app to ~/Applications
 
 **Run Scribus**  
 Several options:  
