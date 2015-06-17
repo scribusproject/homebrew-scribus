@@ -8,24 +8,34 @@ Requirements
 ============
 * An Intel CPU
 * OSX 10.8+
-* Command Line Tools for Xcode: `xcode-select --install`,
-  https://developer.apple.com/downloads or
-  [Xcode](https://itunes.apple.com/us/app/xcode/id497799835) <sup>[1](#1)</sup>
+* Xcode
 * A Bourne-compatible shell for installation (e.g. bash or zsh)
 
 Usage
 =====
-Coming Soon for now see http://wiki.scribus.net/canvas/Scribus_and_Homebrew
 
-**Install Xcode**
-
+**Install Xcode**  
+1. Command Line Tools for Xcode: `xcode-select --install`, https://developer.apple.com/downloads or [Xcode](https://itunes.apple.com/us/app/xcode/id497799835) <sup>[1](#1)</sup>
 
 **Install Homebrew Package Manager**   
 1. Open Terminal.app or [iTerm](http://iterm2.com)  
 2. ``ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"``  
 3. ``brew tap scribusproject/scribus`` (tap official scribusproject/homebrew-scribus repo AND from now on check the repo formula for updates everytime brew update is invoked  
 4. ``brew install --HEAD scribus --verbose``  
+5. ``brew linkapps scribus --local`` will symlink Scribus.app to ~/Applications
 
+**Run Scribus**  
+Several options:  
+* You can run from Finder: ``~/Applications/Scribus.app``  
+* You can run from command line:  ``~/Applications/Scribus.app/Contents/MacOS/Scribus``  
+
+Help Report Bugs
+================
+Since you are running Scribus trunk you can help Scribus development by making bug reports informative by generating backtraces of the bugs you encounter.
+1. Invoke the debugger: ``lldb ~/Applications/Scribus.app/Contents/MacOS/Scribus``
+2. When lldb prompts you: ``run`` to run Scribus in the debugger  
+3. When you encounter a bug and need to generate a backtrace: ``bt``
+4. Copy/Paste backtrace in to a bug report at bugs.scribus.net 
 
 Todo
 ====
