@@ -1,8 +1,7 @@
 homebrew-scribus
 ================
-A Homebrew (the Mac OSX Package Manager) tap for installing Scribus trunk (bleeding edge version).  
-This is only for the latest version of 1.5.x trunk. There is no 1.4.x unless someone wants to make it. 
-
+Install Scribus trunk (aka a bleeding edge version) via Homebrew, a MacOSX package manager.
+The formula used to download the Scribus trunk is in what is called a Homebrew 'tap'. 'Tap' is homebrew-speak for a git repository containing extra formulae. The Scribus tap is hosted on the [official Scribus github repo](https://github.com/scribusproject/homebrew-scribus). Note: This tap installs the latest version of 1.5.x trunk (note: there is no 1.4.x unless someone wants to make it.) Use this at your own risk. Scribus team is not responsible for any loss of data or breakage of equipment. 
 
 Requirements
 ============
@@ -34,6 +33,17 @@ Several options:
 * You can run from Finder: ``~/Applications/Scribus.app``  
 * You can run from command line:  ``~/Applications/Scribus.app/Contents/MacOS/Scribus``  
 
+Important Note (from the Scribus core devs)
+====
+*  Don't use 1.5 for production, don't rely on it to work day to day. Use stable version (1.4.5) for that.
+*  If you ignore the above, be prepared to stay on a version that works for you. There's normally no
+     reason to change every day.
+*  No bugs for homebrew solutions in the Scribus tracker. Use the [Issue Tracker](https://github.com/scribusproject/homebrew-scribus/issues) for that.
+*  Trunk is not backward compatible, in other words, back up any older Scribus formats before you open them using trunk. 
+*  Trunk will be subject to be broken by the devs as it goes through the development process. 
+*  Use this at your own risk. 
+*  More info http://wiki.scribus.net/canvas/Scribus_and_Homebrew
+
 Help Report Bugs
 ================
 Since you are running Scribus trunk you can help Scribus development by making bug reports informative by generating backtraces of the bugs you encounter.  
@@ -49,16 +59,8 @@ Todo
 ====
 * https://github.com/scribusproject/homebrew-scribus/issues
 
-
-Note (from the Scribus core devs)
+Footnotes
 ====
-*  Don't use 1.5 for production, don't rely on it to work day to day. Use stable version (1.4.5) for that.
-*  If you ignore the above, be prepared to stay on a version that works for you. There's normally no
-     reason to change every day.
-*  No bugs for homebrew solutions in the Scribus tracker.
-*  More info http://wiki.scribus.net/canvas/Scribus_and_Homebrew
-
-
 <a name="1"><sup>1</sup></a> Most formulae require a compiler. A handful require a full Xcode
     installation. You can install Xcode, the CLT, or both; Homebrew
     supports all three configurations. Downloading Xcode may require an Apple Developer account on older versions of OS X. Sign up for free [here](https://developer.apple.com/register/index.action).
