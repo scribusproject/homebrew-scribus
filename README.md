@@ -15,7 +15,7 @@ Usage
 =====
 **Install Xcode<sup>[1](#1)</sup>**  
 Several options to choose from:  
-1. Command Line Tools for Xcode: `xcode-select --install`
+1. Command Line Tools for Xcode: `xcode-select --install`  
 2. Download [Xcode using iTunes](https://itunes.apple.com/us/app/xcode/id497799835)  
 3. Download Xcode directly from https://developer.apple.com/downloads  
 
@@ -24,8 +24,8 @@ Several options to choose from:
 2. ``ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"`` 
 
 **Install Scribus and it's dependencies**  
-1. ``brew tap scribusproject/scribus`` will copy the formula from the Scribus github repo AND from now on check the repo formula for updates everytime brew update is invoked. 
-2. ``brew install --HEAD scribus --verbose`` will build Scribus.. This will take some time. 
+1. ``brew tap scribusproject/scribus`` will copy the formula from the Scribus github repo AND from now on check the repo formula for updates everytime brew update is invoked.  
+2. ``brew install --HEAD scribus --verbose`` will build Scribus.. This will take some time.  
 3. ``brew linkapps scribus --local`` will symlink Scribus.app to ~/Applications  
 
 **Run Scribus**  
