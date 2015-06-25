@@ -49,15 +49,16 @@ Important Note (from the Scribus core devs)
 Help Report Bugs
 ================
 Since you are running Scribus trunk you can help Scribus development by making bug reports informative by generating backtraces of the bugs you encounter.  
-1. Invoke the debugger: ``lldb ~/Applications/Scribus.app/Contents/MacOS/Scribus``  
+1. From the CLI invoke the debugger: ``lldb ~/Applications/Scribus.app/Contents/MacOS/Scribus``  
      The CLI will respond with:  
      ``(lldb) target create "/Users/snafu/Applications/Scribus.app/Contents/MacOS/Scribus"``  
      ``Current executable set to '/Users/snafu/Applications/Scribus.app/Contents/MacOS/Scribus' (x86_64).``  
-2. When lldb prompts you: ``run`` Scribus now invoked in the debugger.  
+2. When lldb prompts you: type ``run`` to invoke Scribus from **within** debugger.  
      The CLI responds:  
      ``Process ##### launched: '/Users/snafu/Applications/Scribus.app/Contents/MacOS/Scribus' (x86_64)``  
-3. When you encounter a bug and need to generate a backtrace: ``bt``  
-4. Copy/Paste backtrace in to a bug report at bugs.scribus.net  
+3. Switch back to Scribus interface and use it methodically to trigger the bug
+4. Switch back to CLI and generate a backtrace by typing: ``bt``  
+5. Copy/Paste backtrace in to a bug report along with step by step instructions on how to trigger bug at http://bugs.scribus.net See [example bug report]().
 
 Todo
 ====
