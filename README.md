@@ -22,6 +22,7 @@ Several options to choose from:
 **Install Homebrew Package Manager**   
 1. Open Terminal.app or [iTerm](http://iterm2.com)  
 2. ```ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"```  <sup>[2](#2)</sup>  
+![homebrew-install](https://cloud.githubusercontent.com/assets/4140247/8355316/32b5c0fa-1b14-11e5-9393-2ed0588983d6.gif)
 
 
 **Install Scribus and it's dependencies**  
