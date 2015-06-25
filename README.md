@@ -57,7 +57,7 @@ Since you are running Scribus trunk you can help Scribus development by making b
      The CLI responds:  
      ``Process ##### launched: '/Users/snafu/Applications/Scribus.app/Contents/MacOS/Scribus' (x86_64)``  
 3. Switch back to Scribus interface and use it methodically to trigger the bug
-4. Switch back to CLI and generate a backtrace by typing: ``bt``  
+4. Switch back to CLI and generate a backtrace by typing: ``bt``
 5. Copy/Paste backtrace in to a bug report along with step by step instructions on how to trigger bug at http://bugs.scribus.net See [example bug report]().
 
 Todo
