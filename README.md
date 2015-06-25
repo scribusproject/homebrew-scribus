@@ -68,5 +68,5 @@ Footnotes
 ====
 <a name="1"><sup>1</sup></a> Most formulae require a compiler. A handful require a full Xcode
     installation. You can install Xcode, the CLT, or both; Homebrew
-    supports all three configurations. Downloading Xcode may require an Apple Developer account on older versions of OS X. Sign up for free [here](https://developer.apple.com/register/index.action).
+    supports all three configurations. Downloading Xcode may require an Apple Developer account on older versions of OS X. Sign up for free [here](https://developer.apple.com/register/index.action).  
 <a name="2"><sup>2</sup></a> See http://brew.sh
