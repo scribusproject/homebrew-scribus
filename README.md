@@ -21,7 +21,8 @@ Several options to choose from:
 
 **Install Homebrew Package Manager**   
 1. Open Terminal.app or [iTerm](http://iterm2.com)  
-2. ``ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"`` 
+2. ```ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"```  <sup>[2](#2)</sup>  
+
 
 **Install Scribus and it's dependencies**  
 1. ``brew tap scribusproject/scribus`` will copy the formula from the Scribus github repo AND from now on check the repo formula for updates everytime brew update is invoked.  
@@ -66,3 +67,4 @@ Footnotes
 <a name="1"><sup>1</sup></a> Most formulae require a compiler. A handful require a full Xcode
     installation. You can install Xcode, the CLT, or both; Homebrew
     supports all three configurations. Downloading Xcode may require an Apple Developer account on older versions of OS X. Sign up for free [here](https://developer.apple.com/register/index.action).
+<a name="2"><sup>2</sup></a> See http://brew.sh
