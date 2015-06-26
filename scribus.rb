@@ -12,7 +12,7 @@ class Scribus < Formula
   depends_on 'cmake' => :build
   depends_on 'little-cms2'
   depends_on 'qt5'
-  depends_on 'cairo' => "without-x11"
+  depends_on 'cairo' # => "without-x11"
   depends_on 'jpeg'
   depends_on 'libtiff'
   depends_on 'fontconfig'
