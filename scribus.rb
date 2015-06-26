@@ -9,6 +9,7 @@ class Scribus < Formula
   homepage 'http://wiki.scribus.net/canvas/Scribus_and_Homebrew'
   version '0.9'
   head 'svn://scribus.net//trunk/Scribus', :using => ScribusDownloadStrategy
+  depends_on 'xz'
   depends_on 'cmake' => :build
   depends_on 'little-cms2'
   depends_on 'qt5'
@@ -20,7 +21,6 @@ class Scribus < Formula
   depends_on 'pkg-config' => :build
   depends_on 'python'
   depends_on 'hunspell'
-  depends_on 'xz'
   depends_on 'homebrew/dupes/zlib' # if MacOS.version <= :mavericks
   depends_on 'ghostscript' => :recommended
   depends_on 'graphicsmagick' => :recommended
