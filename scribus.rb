@@ -6,8 +6,8 @@ end
 
 
 class Scribus < Formula
-  homepage 'http://wiki.scribus.net/canvas/Scribus_and_Homebrew'
-  version '0.9'
+  homepage 'https://github.com/scribusproject/homebrew-scribus'
+  version '1.5.1svn'
   head 'svn://scribus.net//trunk/Scribus', :using => ScribusDownloadStrategy
   depends_on 'xz'
   depends_on 'cmake' => :build
