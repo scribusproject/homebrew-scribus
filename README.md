@@ -1,6 +1,6 @@
-homebrew-scribus
+Install Scribus w/ Homebrew Package Manager
 ================
-Install Scribus trunk (aka a bleeding edge version) via [Homebrew](http://brew.sh), a MacOSX package manager.
+Install Scribus trunk (AKA the bleeding edge version) via [Homebrew](http://brew.sh), a MacOSX package manager.
 The formula used to download the Scribus trunk is in what is called a Homebrew 'tap'. **'Tap' is homebrew-speak for a git repository containing extra formulae** outside of the main Homebrew repo. The Scribus tap is hosted on the [official Scribus github repo](https://github.com/scribusproject/homebrew-scribus).  
 **Note**: This tap installs the latest version of 1.5.x trunk (there is no 1.4.x unless someone wants to make it.) Use this at your own risk. Scribus team is not responsible for any loss of data or breakage of equipment. 
 
