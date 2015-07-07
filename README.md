@@ -41,6 +41,11 @@ Several options to choose from:
 Sometimes you may run in to a situation where you'd like to test or include a patch to Scribus. You can do that thus:
 * Within the Formula block add a line with ```Patch :DATA```  
 * Then **append the patch to the end** of the formula. 
+By doing:
+```
+__END__
+[add the patch here]  
+```
 See [Example](https://gist.github.com/luzpaz/69c00f2a8516b5462614) or check out:  
 ```
 class Scribuspatch < Formula
