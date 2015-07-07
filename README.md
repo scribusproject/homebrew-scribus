@@ -35,6 +35,44 @@ Several options to choose from:
 * You can run from Finder: ``~/Applications/Scribus.app``  
 * You can run from command line:  ``~/Applications/Scribus.app/Contents/MacOS/Scribus``  
 
+
+## Advanced Usage 
+**Run HEAD with a specific Patch**  
+Sometimes you may run in to a situation where you'd like to test or include a patch to Scribus. You can do that thus:
+* Within the Formula block add a line with ```Patch :DATA```  
+* Then **append the patch to the end** of the formula. 
+See [Example](https://gist.github.com/luzpaz/69c00f2a8516b5462614) or check out:  
+```
+class Scribuspatch < Formula
+  homepage 'http://wiki.scribus.net/canvas/Scribus_and_Homebrew'
+  version '0.9'
+  head 'svn://scribus.net//trunk/Scribus', :using => ScribusDownloadStrategy
+  depends_on 'xz'
+......
+   patch :DATA
+
+   def install
+......
+    system "cmake", ".", *args
+......
+  end
+end
+__END__
+diff --git a/scribus/scribus.cpp b/scribus/scribus.cpp
+index 966362a..a6a66b6 100644
+--- a/scribus/scribus.cpp
++++ b/scribus/scribus.cpp
+@@ -6539,6 +6539,7 @@ void ScribusMainWindow::slotPrefsOrg()
+ 	slotSelect();
+ 	struct ApplicationPrefs oldPrefs(prefsManager->appPrefs);
+ 	PreferencesDialog prefsDialog(this, oldPrefs);
++  prefsDialog.setWindowModality( Qt::WindowModal );
+ 	int prefsResult=prefsDialog.exec();
+ 	if (prefsResult==QDialog::Accepted)
+ 	{
+```
+
+
 Important Note (from the Scribus core devs)
 ====
 *  Don't use 1.5 for production, don't rely on it to work day to day. Use stable version (1.4.5) for that.
