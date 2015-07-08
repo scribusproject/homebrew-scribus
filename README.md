@@ -10,10 +10,11 @@ Requirements
 * OSX 10.8+
 * Xcode
 * A Bourne-compatible shell for installation (e.g. bash or zsh)
+* No macports<sup>[1](#1)</sup> installed
 
 Usage
 =====
-**Install Xcode<sup>[1](#1)</sup>**  
+**Install Xcode<sup>[2](#2)</sup>**  
 Several options to choose from:  
 1. Command Line Tools for Xcode: `xcode-select --install`  
 2. Download [Xcode using iTunes](https://itunes.apple.com/us/app/xcode/id497799835)  
@@ -21,7 +22,7 @@ Several options to choose from:
 
 **Install Homebrew Package Manager**   
 1. Open Terminal.app or [iTerm](http://iterm2.com)  
-2. ```ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"```  <sup>[2](#2)</sup>  
+2. ```ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"```  <sup>[3](#3)</sup>  
 ![homebrew-install](https://cloud.githubusercontent.com/assets/4140247/8355316/32b5c0fa-1b14-11e5-9393-2ed0588983d6.gif)
 
 
@@ -109,7 +110,8 @@ Todo
 
 Footnotes
 ====
-<a name="1"><sup>1</sup></a> Most formulae require a compiler. A handful require a full Xcode
+<a name="1"><sup>1</sup></a> Homebrew will complain about libraries that belong to macports. At this time, it is recommended not to have 2 package managers installed on the same machine.
+<a name="2"><sup>2</sup></a> Most formulae require a compiler. A handful require a full Xcode
     installation. You can install Xcode, the CLT, or both; Homebrew
     supports all three configurations. Downloading Xcode may require an Apple Developer account on older versions of OS X. Sign up for free [here](https://developer.apple.com/register/index.action).  
-<a name="2"><sup>2</sup></a> See http://brew.sh
+<a name="3"><sup>3</sup></a> See http://brew.sh
