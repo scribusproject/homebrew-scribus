@@ -12,7 +12,7 @@ Requirements
 * A Bourne-compatible shell for installation (e.g. bash or zsh)
 * No macports<sup>[1](#1)</sup> installed
 
-Usage
+Installation
 =====
 **Install Xcode<sup>[2](#2)</sup>**  
 Several options to choose from:  
@@ -31,11 +31,17 @@ Several options to choose from:
 2. ``brew install --HEAD scribus --verbose`` will build Scribus.. This will take some time.  
 3. ``brew linkapps scribus --local`` will symlink Scribus.app to ~/Applications  
 
+## Usage 
 **Run Scribus**  
 Several options to choose from:  
-* You can run from Finder: ``~/Applications/Scribus.app``  
+* You can run from Finder: ```⌘+[space]``` then type ```Scribus``` and choose the one in ~/Applications  
 * You can run from command line:  ``~/Applications/Scribus.app/Contents/MacOS/Scribus``  
 
+**Run the latest Scribus**
+So now you can follow the development of Scribus. In order to use the latest code you need to follow these steps:  
+* Open terminal or iTerm
+* Run ```brew update && brew upgrade --all``` to make sure homebrew is up to date
+* Run ```brew reinstall --HEAD --verbose scribus --verbose```
 
 ## Advanced Usage 
 **Run HEAD with a specific Patch**  
