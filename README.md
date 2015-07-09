@@ -37,7 +37,7 @@ Several options to choose from:
 * You can run from Finder: ```⌘+[space]``` then type ```Scribus``` and choose the one in ~/Applications  
 * You can run from command line:  ``~/Applications/Scribus.app/Contents/MacOS/Scribus``  
 
-**Run the latest Scribus**
+## Use Bleeding Edge Scribus
 So now you can follow the development of Scribus. In order to use the latest code you need to follow these steps:  
 * Open terminal or iTerm
 * Run ```brew update && brew upgrade --all``` to make sure homebrew is up to date
@@ -85,8 +85,8 @@ index 966362a..a6a66b6 100644
 ```
 
 
-Important Note (from the Scribus core devs)
-====
+## Important Note (from the Scribus core devs)
+
 *  Don't use 1.5 for production, don't rely on it to work day to day. Use stable version (1.4.5) for that.
 *  If you ignore the above, be prepared to stay on a version that works for you. There's normally no
      reason to change every day.
@@ -99,15 +99,15 @@ Important Note (from the Scribus core devs)
 Help Report Bugs
 ================
 Since you are running Scribus trunk you can help Scribus development by making bug reports informative by generating backtraces of the bugs you encounter.  
-1. From the CLI invoke the debugger: ``lldb ~/Applications/Scribus.app/Contents/MacOS/Scribus``  
+1. From the CLI invoke the debugger: ```lldb ~/Applications/Scribus.app/Contents/MacOS/Scribus```  
      The CLI will respond with:  
-     ``(lldb) target create "/Users/snafu/Applications/Scribus.app/Contents/MacOS/Scribus"``  
-     ``Current executable set to '/Users/snafu/Applications/Scribus.app/Contents/MacOS/Scribus' (x86_64).``  
+     ```(lldb) target create "/Users/snafu/Applications/Scribus.app/Contents/MacOS/Scribus"```  
+     ```Current executable set to '/Users/snafu/Applications/Scribus.app/Contents/MacOS/Scribus' (x86_64).```  
 2. When lldb prompts you: type ``run`` to invoke Scribus from **within** debugger.  
      The CLI responds:  
-     ``Process ##### launched: '/Users/snafu/Applications/Scribus.app/Contents/MacOS/Scribus' (x86_64)``  
+     ```Process ##### launched: '/Users/snafu/Applications/Scribus.app/Contents/MacOS/Scribus' (x86_64)```  
 3. Switch back to Scribus interface and use it methodically to trigger the bug  
-4. Switch back to CLI and generate a backtrace by typing: ``bt``  
+4. Switch back to CLI and generate a backtrace by typing: ```bt```  
 5. Copy/Paste backtrace in to a bug report along with step by step instructions on how to trigger bug at http://bugs.scribus.net See [example bug report]().  
 
 Todo
