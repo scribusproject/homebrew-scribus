@@ -93,10 +93,13 @@ index 966362a..a6a66b6 100644
 *  If you ignore the above, be prepared to stay on a version that works for you. There's normally no
      reason to change every day.
 *  No bugs for homebrew solutions in the Scribus tracker. Use the [Issue Tracker](https://github.com/scribusproject/homebrew-scribus/issues) for that.
-*  Trunk is not backward compatible, in other words, back up any older Scribus formats before you open them using trunk. 
+*  Trunk is not backward compatible, in other words, back up any older Scribus formats before you open them using trunk. (example: if you made a file using v1.5.0 and then opened it up with a trunk build do not expect it to work correctly again in 1.5.0) 
 *  Trunk will be subject to be broken by the devs as it goes through the development process. 
 *  Use this at your own risk. 
-*  More info http://wiki.scribus.net/canvas/Scribus_and_Homebrew
+
+### Other Important Notes (non-dev related)
+
+* If you have macports installed most likely you will run in to issues when using Homebrew. Therefore you will need to choose between one or the other. It's not recommended to run 2 different package managers on the same machine. 
 
 Help Report Bugs
 ================
