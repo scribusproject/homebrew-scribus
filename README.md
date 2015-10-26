@@ -117,7 +117,7 @@ Since you are running Scribus trunk you can help Scribus development by making b
 
   ![invoke-scribus-with-lldb-pt2](https://cloud.githubusercontent.com/assets/4140247/10736831/12ccd25e-7bdd-11e5-9652-1a0224f09f72.gif)
 
-  5. Copy/Paste backtrace in to a bug report along with step by step instructions on how to trigger bug at http://bugs.scribus.net See [example bug report]().  
+  5. Copy/Paste backtrace in to a bug report along with step by step instructions on how to trigger bug at http://bugs.scribus.net See [example bug report](http://bugs.scribus.net/view.php?id=13026).  
 
 Todo
 ====
