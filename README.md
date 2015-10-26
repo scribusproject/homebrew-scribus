@@ -18,9 +18,9 @@ Installation
 =====
 **Install Xcode<sup>[2](#2)</sup>**  
 Several options to choose from:  
-1. Command Line Tools for Xcode: `xcode-select --install`  
-2. Download [Xcode using iTunes](https://itunes.apple.com/us/app/xcode/id497799835)  
-3. Download Xcode directly from https://developer.apple.com/downloads  
+  1. Command Line Tools for Xcode: `xcode-select --install`  
+  2. Download [Xcode using iTunes](https://itunes.apple.com/us/app/xcode/id497799835)  
+  3. Download Xcode directly from https://developer.apple.com/downloads  
 
 **Install Homebrew Package Manager**   
 1. Open Terminal.app or [iTerm](http://iterm2.com)  
