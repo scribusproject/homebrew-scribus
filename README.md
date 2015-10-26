@@ -104,16 +104,20 @@ index 966362a..a6a66b6 100644
 Help Report Bugs
 ================
 Since you are running Scribus trunk you can help Scribus development by making bug reports informative by generating backtraces of the bugs you encounter.  
-1. From the CLI invoke the debugger: ```lldb ~/Applications/Scribus.app/Contents/MacOS/Scribus```  
+  1. From the CLI invoke the debugger: ```lldb ~/Applications/Scribus.app/Contents/MacOS/Scribus```  
      The CLI will respond with:  
      ```(lldb) target create "/Users/snafu/Applications/Scribus.app/Contents/MacOS/Scribus"```  
      ```Current executable set to '/Users/snafu/Applications/Scribus.app/Contents/MacOS/Scribus' (x86_64).```  
-2. When lldb prompts you: type ``run`` to invoke Scribus from **within** debugger.  
+  2. When lldb prompts you: type ``run`` to invoke Scribus from **within** debugger.  
      The CLI responds:  
      ```Process ##### launched: '/Users/snafu/Applications/Scribus.app/Contents/MacOS/Scribus' (x86_64)```  
-3. Switch back to Scribus interface and use it methodically to trigger the bug  
-4. Switch back to CLI and generate a backtrace by typing: ```bt```  
-5. Copy/Paste backtrace in to a bug report along with step by step instructions on how to trigger bug at http://bugs.scribus.net See [example bug report]().  
+  ![invoke-scribus-with-lldb](https://cloud.githubusercontent.com/assets/4140247/10736714/7443d1e6-7bdc-11e5-9d57-c3c71f04b0e5.gif)
+  3. Switch back to Scribus interface and use it methodically to trigger the bug  
+  4. Switch back to CLI and generate a backtrace by typing: ```bt```
+
+  ![invoke-scribus-with-lldb-pt2](https://cloud.githubusercontent.com/assets/4140247/10736831/12ccd25e-7bdd-11e5-9652-1a0224f09f72.gif)
+
+  5. Copy/Paste backtrace in to a bug report along with step by step instructions on how to trigger bug at http://bugs.scribus.net See [example bug report]().  
 
 Todo
 ====
