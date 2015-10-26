@@ -9,7 +9,7 @@ The formula used to download the Scribus trunk is in what is called a Homebrew '
 Requirements
 ============
 * An Intel CPU
-* OSX 10.8+
+* OSX 10.9+
 * Xcode
 * A Bourne-compatible shell for installation (e.g. bash or zsh)
 * No macports<sup>[1](#1)</sup> installed
