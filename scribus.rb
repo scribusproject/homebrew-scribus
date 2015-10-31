@@ -6,22 +6,23 @@ end
 
 
 class Scribus < Formula
+  desc 'Free Libre Opensource Desktop Publishing software'
   homepage 'https://github.com/scribusproject/homebrew-scribus'
-  version '1.5.1svn'
   head 'svn://scribus.net//trunk/Scribus', :using => ScribusDownloadStrategy
+  version '1.5.1svn'
   depends_on 'xz'
   depends_on 'cmake' => :build
+  depends_on 'pkg-config' => :build
   depends_on 'little-cms2'
   depends_on 'qt5'
-  depends_on 'cairo' # => "without-x11"
+  depends_on 'cairo' 
   depends_on 'jpeg'
   depends_on 'libtiff'
   depends_on 'fontconfig'
   depends_on 'openssl'
-  depends_on 'pkg-config' => :build
   depends_on 'python'
   depends_on 'hunspell'
-  depends_on 'homebrew/dupes/zlib' # if MacOS.version <= :mavericks
+  depends_on 'homebrew/dupes/zlib'              # if MacOS.version <= :mavericks
   depends_on 'ghostscript' => :recommended
   depends_on 'graphicsmagick' => :recommended
   depends_on 'boost' => :recommended
