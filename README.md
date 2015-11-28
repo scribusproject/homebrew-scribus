@@ -123,6 +123,7 @@ Todo
 ====
 * https://github.com/scribusproject/homebrew-scribus/issues
 - [ ] Make a legit Homebrew formula for 1.6 [WIP](https://gist.github.com/luzpaz/647414b7470b9e78b851)
+
 Footnotes
 ====
 <a name="1"><sup>1</sup></a> Homebrew will complain about libraries that belong to macports. At this time, it is recommended not to have 2 package managers installed on the same machine.  
