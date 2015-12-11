@@ -15,7 +15,7 @@ class Scribus < Formula
   depends_on 'pkg-config' => :build
   depends_on 'little-cms2'
   depends_on 'qt5'
-  depends_on 'cairo' 
+  depends_on 'cairo'
   depends_on 'jpeg'
   depends_on 'libtiff'
   depends_on 'fontconfig'
