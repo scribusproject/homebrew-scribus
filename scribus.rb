@@ -6,7 +6,7 @@ end
 
 
 class Scribus < Formula
-  desc 'Free Libre Opensource Desktop Publishing software'
+  desc 'Free Libre Open Source Desktop Publishing software'
   homepage 'https://github.com/scribusproject/homebrew-scribus'
   head 'svn://scribus.net//trunk/Scribus', :using => ScribusDownloadStrategy
   version '1.5.1svn'
