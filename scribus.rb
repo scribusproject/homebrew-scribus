@@ -48,6 +48,7 @@ class Scribus < Formula
     -DWANT_GRAPHICSMAGICK=1
     -DWANT_SVNVERSION=1
     -DWANT_DEBUG=1
+    -DWANT_HEADERINSTALL=1
     -DCMAKE_OSX_DEPLOYMENT_TARGET=#{MacOS.version}
     ]
     # Other Options:
