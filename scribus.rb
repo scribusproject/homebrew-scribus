@@ -9,7 +9,7 @@ class Scribus < Formula
   desc 'Free Libre Open Source Desktop Publishing software'
   homepage 'https://github.com/scribusproject/homebrew-scribus'
   head 'svn://scribus.net//trunk/Scribus', :using => ScribusDownloadStrategy
-  version '1.5.1svn'
+  version '1.5.2svn'
   depends_on 'xz'
   depends_on 'cmake' => :build
   depends_on 'pkg-config' => :build
