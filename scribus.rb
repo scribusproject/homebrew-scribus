@@ -39,7 +39,7 @@ class Scribus < Formula
   # depends_on 'open-scene-graph' => :recommended # 3D PDF Annotations
 
    def install
-    args = %W[
+    args = std_cmake_args + %W[
     -DBUILD_OSX_BUNDLE=1
     -DCMAKE_INSTALL_PREFIX:PATH=#{prefix}/Scribus.app/Contents/
     -DQT_PREFIX=#{Formula["qt5"].opt_prefix}
@@ -49,7 +49,6 @@ class Scribus < Formula
     -DWANT_SVNVERSION=1
     -DWANT_DEBUG=1
     -DWANT_HEADERINSTALL=1
-    -DCMAKE_OSX_DEPLOYMENT_TARGET=#{MacOS.version}
     ]
     # Other Options:
     # Enable Scripter2 with -DWANT_SCRIPTER2=1
