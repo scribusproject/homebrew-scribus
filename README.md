@@ -10,7 +10,7 @@ Requirements
 ============
 * An Intel CPU
 * OSX 10.9+
-* Xcode
+* Xcode (Command Line Tools or full Xcode install)
 * A Bourne-compatible shell for installation (e.g. bash or zsh)
 * No macports<sup>[1](#1)</sup> installed
 
