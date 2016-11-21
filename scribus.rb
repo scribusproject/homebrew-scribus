@@ -22,11 +22,11 @@ class Scribus < Formula
   depends_on 'openssl'
   depends_on 'python'
   depends_on 'hunspell'
+  depends_on 'poppler'
   depends_on 'homebrew/dupes/zlib'              # if MacOS.version <= :mavericks
   depends_on 'ghostscript' => :recommended
   depends_on 'graphicsmagick' => :recommended
   depends_on 'boost' => :recommended
-  depends_on 'poppler' => :recommended
   depends_on 'podofo' => :recommended
   depends_on 'freetype' => :recommended
   depends_on 'librevenge' => :recommended       # Build import filters
